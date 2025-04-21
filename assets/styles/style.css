@@ -20,7 +20,7 @@ a {
 
 #main {
   width: 100%;
-  background: url('assets/images/main-bg.jpg');
+  background: url('../assets/images/main-bg.jpg');
   background: rgb(27,66,66);
   background-size: cover;
   background-repeat: no-repeat;
@@ -309,7 +309,7 @@ a {
 }
 
 .wtd-text {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   color: rgb(52,52,52);
   text-align: center;
   margin: 10px 0 40px;
@@ -689,7 +689,7 @@ a {
 
 #adventure {
   width: 100%;
-  background: url('assets/images/adventure.jpg');
+  background: url('../assets/images/adventure.jpg');
   background: rgb(27,66,66);
   background-size: cover;
   background-repeat: no-repeat;
