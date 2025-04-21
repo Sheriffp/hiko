@@ -40,7 +40,7 @@ a {
   padding: 0 12px;
   margin: 0 auto;
   height: 5rem;
-  background: linear-gradient(to bottom rgb(27,66,66), rgb(47, 86, 86));
+  background: linear-gradient(to bottom, rgb(27,66,66), rgb(47, 86, 86));
   z-index: 99;
 }
 
@@ -658,6 +658,7 @@ a {
 
 .jtc-card-profile {
   display: flex;
+  justify-content: center;
   align-items: center;
   margin-top: 10px;
   padding: 10px 0;
@@ -912,6 +913,7 @@ a {
     position: static;
     width: 90%;
     padding: 0;
+    background: none;
   }
   
   #main-header nav {
