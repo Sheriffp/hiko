@@ -20,8 +20,8 @@ a {
 
 #main {
   width: 100%;
+  background: url('assets/images/main-bg.jpg');
   background: rgb(27,66,66);
-  background: url('../assets/images/main-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -689,8 +689,8 @@ a {
 
 #adventure {
   width: 100%;
-  background: rgb(27,66,66);;
-  background: url('../assets/images/adventure.jpg');
+  background: url('assets/images/adventure.jpg');
+  background: rgb(27,66,66);
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
