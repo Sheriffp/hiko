@@ -536,21 +536,21 @@ a {
 }
 
 .achievement-text h2 {
-  font-size: 3.8rem;
+  font-size: 3.6rem;
   font-weight: 600;
   color: rgb(255,255,255);
   margin-bottom: 10px;
 }
 
 .achievement-text strong {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 600;
   color: rgb(255,255,255);
   margin-bottom: 10px;
 }
 
 .achievement-text p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: rgb(255,255,255);
   text-align: center;
 }
