@@ -319,8 +319,8 @@ a {
 
 .wtd-btns {
   display: flex;
-  align-items: flex-start;
-  margin-bottom: 30px;
+  justify-content:flex-start;
+  align-items: center;
 }
 
 .wtd-btns a {
