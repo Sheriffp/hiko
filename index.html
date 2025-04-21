@@ -1,564 +1,531 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Hiko</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
-    />
-    <script
-      defer
-      src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"
-    ></script>
-    <link rel="stylesheet" href="assets/styles/style.css" />
-    <script defer src="assets/scripts/mobile.js"></script>
-    <script defer src="assets/scripts/swiperjs.js"></script>
-  </head>
-  <body>
-    <section id="main">
-      <header id="main-header">
-        <a href="#" id="logo">Hiko</a>
-        <nav>
-          <ul class="nav-items">
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Journey</a></li>
-            <li><a href="#">Guides</a></li>
-          </ul>
-          <div class="socials">
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-          </div>
-        </nav>
-        <button id="mobile-menu-btn">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-      </header>
-      <aside id="mobile-menu">
-        <nav>
-          <ul class="nav-items">
-            <li><a href="#share-with-us">Blog</a></li>
-            <li><a href="#what-to-do">Journey</a></li>
-            <li><a href="#join-the-community">Guides</a></li>
-          </ul>
-          <div class="socials">
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-          </div>
-        </nav>
-      </aside>
-      <div id="hero">
-        <div class="trusted">
-          <div class="trusted-img">
-            <div class="img1"><img src="assets/images/s1.jpg" alt="" /></div>
-            <div class="img2"><img src="assets/images/s2.jpg" alt="" /></div>
-            <div class="img3"><img src="assets/images/s3.jpg" alt="" /></div>
-            <div class="img4"><img src="assets/images/s4.jpg" alt="" /></div>
-          </div>
-          <div class="trusted-text">
-            <p>
-              Trusted by 150k+ <br />
-              explorers and hikers
-            </p>
-          </div>
-        </div>
-        <div class="hero-heading">
-          <h2>Let's Go Hiking!</h2>
-          <p>
-            Led by locals, built for those who want more than a pretty view,<br />real
-            connection, fresh air, and real stories to take home.
-          </p>
-          <a href="#"
-            >Start Your Hike
-            <i class="fa-solid fa-arrow-right"></i>
-          </a>
-        </div>
-      </div>
-    </section>
-    <section id="sponsors">
-      <div class="sponsor-logo">
-        <img src="assets/images/scarpa.png" alt="" />
-        <img src="assets/images/columbia.png" alt="" />
-        <img src="assets/images/patagonia.png" alt="" />
-        <img src="assets/images/komoot.png" alt="" />
-        <img src="assets/images/the-north-face.png" alt="" />
-        <img src="assets/images/vaude.png" alt="" />
-      </div>
-    </section>
-    <section id="what-to-do">
-      <div class="wtd-heading">
-        <p>What to do</p>
-        <h2>Discover Trails</h2>
-        <hr />
-      </div>
-      <div class="wtd-box">
-        <div class="wtd-text">
-          <p>
-            Find your next adventure with our curated collection of hiking
-            trails
-          </p>
-        </div>
-        <div class="wtd-btns">
-          <a class="active" href="#">All Trails</a>
-          <a href="#">Easy Hikes</a>
-          <a href="#">Popular Trails</a>
-          <a href="#">Hidden Gems</a>
-        </div>
-      </div>
-      <div class="wtd-card">
-        <div class="swiper mySwiperwtd">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="wtd-card-box">
-                <div class="wtd-card-img">
-                  <img src="assets/images/d1.jpg" alt="" />
-                  <span>Easy</span>
-                </div>
-                <div class="wtd-card-text">
-                  <h3>Emerald Lake Trail</h3>
-                  <p>
-                    <i class="fa-solid fa-location-dot"></i>Rocky Mountain
-                    National Park, CO
-                  </p>
-                </div>
-                <hr />
-                <div class="wtd-card-time-rating">
-                  <div class="wtd-card-time">
-                    <p><i class="fa-solid fa-clock"></i>2-4 hours</p>
-                  </div>
-                  <div class="wtd-card-rating">
-                    <p><i class="fa-solid fa-star"></i>4.7</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="wtd-card-box">
-                <div class="wtd-card-img">
-                  <img src="assets/images/d2.jpg" alt="" />
-                  <span>Popular</span>
-                </div>
-                <div class="wtd-card-text">
-                  <h3>The Andes</h3>
-                  <p>
-                    <i class="fa-solid fa-location-dot"></i>Mendoza, Argentina
-                  </p>
-                </div>
-                <hr />
-                <div class="wtd-card-time-rating">
-                  <div class="wtd-card-time">
-                    <p><i class="fa-solid fa-clock"></i>4-6 hours</p>
-                  </div>
-                  <div class="wtd-card-rating">
-                    <p><i class="fa-solid fa-star"></i>4.9</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="wtd-card-box">
-                <div class="wtd-card-img">
-                  <img src="assets/images/d3.jpg" alt="" />
-                  <span>Gems</span>
-                </div>
-                <div class="wtd-card-text">
-                  <h3>Hidden Forest Path</h3>
-                  <p>
-                    <i class="fa-solid fa-location-dot"></i>Olympic National
-                    Park, WA
-                  </p>
-                </div>
-                <hr />
-                <div class="wtd-card-time-rating">
-                  <div class="wtd-card-time">
-                    <p><i class="fa-solid fa-clock"></i>1-3 hours</p>
-                  </div>
-                  <div class="wtd-card-rating">
-                    <p><i class="fa-solid fa-star"></i>4.8</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="wtd-card-box">
-                <div class="wtd-card-img">
-                  <img src="assets/images/d1.jpg" alt="" />
-                  <span>Easy</span>
-                </div>
-                <div class="wtd-card-text">
-                  <h3>Emerald Lake Trail</h3>
-                  <p>
-                    <i class="fa-solid fa-location-dot"></i>Rocky Mountain
-                    National Park, CO
-                  </p>
-                </div>
-                <hr />
-                <div class="wtd-card-time-rating">
-                  <div class="wtd-card-time">
-                    <p><i class="fa-solid fa-clock"></i>2-4 hours</p>
-                  </div>
-                  <div class="wtd-card-rating">
-                    <p><i class="fa-solid fa-star"></i>4.7</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="wtd-card-box">
-                <div class="wtd-card-img">
-                  <img src="assets/images/d2.jpg" alt="" />
-                  <span>Popular</span>
-                </div>
-                <div class="wtd-card-text">
-                  <h3>The Andes</h3>
-                  <p>
-                    <i class="fa-solid fa-location-dot"></i>Mendoza, Argentina
-                  </p>
-                </div>
-                <hr />
-                <div class="wtd-card-time-rating">
-                  <div class="wtd-card-time">
-                    <p><i class="fa-solid fa-clock"></i>4-6 hours</p>
-                  </div>
-                  <div class="wtd-card-rating">
-                    <p><i class="fa-solid fa-star"></i>4.9</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="wtd-card-box">
-                <div class="wtd-card-img">
-                  <img src="assets/images/d3.jpg" alt="" />
-                  <span>Gems</span>
-                </div>
-                <div class="wtd-card-text">
-                  <h3>Hidden Forest Path</h3>
-                  <p>
-                    <i class="fa-solid fa-location-dot"></i>Olympic National
-                    Park, WA
-                  </p>
-                </div>
-                <hr />
-                <div class="wtd-card-time-rating">
-                  <div class="wtd-card-time">
-                    <p><i class="fa-solid fa-clock"></i>1-3 hours</p>
-                  </div>
-                  <div class="wtd-card-rating">
-                    <p><i class="fa-solid fa-star"></i>4.8</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-pagination"></div>
-          <div class="swiper-button-prev-wtd"></div>
-          <div class="swiper-button-next-wtd"></div>
-        </div>
-      </div>
-    </section>
-    <section id="share-with-us">
-      <div class="swu-heading">
-        <p>share with us</p>
-        <h2>Let Your Hike Inspire Someone Else</h2>
-        <hr />
-      </div>
-      <div class="swu-box">
-        <div class="swu-text">
-          <p>Big climbs or small walks, they all count here</p>
-        </div>
-        <div class="swu-socials">
+<head>
+  <meta charset="UTF-8">
+  <title>Hiko</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+
+  <link rel="stylesheet" href="/assets/styles/style.css">
+  <script defer src="/assets/scripts/mobile.js"></script>
+  <script defer src="/assets/scripts/swiperjs.js"></script>
+
+ 
+</head>
+<body>
+  <section id="main">
+    <header id="main-header">
+      <a href="#" id="logo">Hiko</a>
+      <nav>
+        <ul class="nav-items">
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Journey</a></li>
+          <li><a href="#">Guides</a></li>
+        </ul>
+        <div class="socials">
           <a href="#"><i class="fa-brands fa-instagram"></i></a>
           <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
           <a href="#"><i class="fa-brands fa-facebook"></i></a>
-          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </nav>
+      <label for="menu-btn" id="mobile-menu-btn">
+        <input type="checkbox" id="menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+    <aside id="mobile-menu">
+      <nav>
+        <ul class="nav-items">
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Journey</a></li>
+          <li><a href="#">Guides</a></li>
+        </ul>
+        <div class="socials">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+      </nav>
+    </aside>
+    <div id="hero">
+      <div class="trusted">
+        <div class="trusted-img">
+          <div class="img1"><img src="assets/images/s1.jpg" alt=""></div>
+          <div class="img2"><img src="assets/images/s2.jpg" alt=""></div>
+          <div class="img3"><img src="assets/images/s3.jpg" alt=""></div>
+          <div class="img4"><img src="assets/images/s4.jpg" alt=""></div>
+        </div>
+        <div class="trusted-text">
+          <p>Trusted by 150k+ <br/>
+            explorers and hikers
+          </p>
         </div>
       </div>
-      <div class="swu-img-card">
-        <img src="assets/images/s1.jpg" alt="" />
-        <img src="assets/images/s2.jpg" alt="" />
-        <img src="assets/images/s3.jpg" alt="" />
-        <img src="assets/images/s4.jpg" alt="" />
-      </div>
-    </section>
-    <section id="achievement">
-      <div class="achievement-box">
-        <div class="achievement-text">
-          <h2>2,500+</h2>
-          <strong>Trails Mapped</strong>
-          <p>Curated hiking paths</p>
-        </div>
-        <div class="achievement-text">
-          <h2>45k+</h2>
-          <strong>Miles Covered</strong>
-          <p>Total distance tracked</p>
-        </div>
-        <div class="achievement-text">
-          <h2>150k+</h2>
-          <strong>Active Hikers</strong>
-          <p>Monthly community members</p>
-        </div>
-      </div>
-    </section>
-    <section id="join-the-community">
-      <div class="jtc-heading">
-        <p>Join the community</p>
-        <h2>Trusted by Hikers Everywhere</h2>
-        <hr />
-      </div>
-      <div class="jtc-text">
-        <p>
-          Join our community of adventurers and discover what makes our trails
-          special
+      <div class="hero-heading">
+        <h2>Let's Go Hiking!</h2>
+        <p>Led by locals, built for those who want more than a pretty view,<br/>real connection, fresh air, and real stories to take home.
         </p>
-      </div>
-      <div class="jtc-card">
-        <div class="swiper mySwiperjtc">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="jtc-card-box">
-                <div class="jtc-card-box-quote">
-                  <i class="fa-solid fa-quote-right"></i>
-                </div>
-                <div class="jtc-card-text">
-                  <div class="star">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                  </div>
-                  <p>
-                    Found trails I would never have found on my own. Authentic
-                    and refreshing.
-                  </p>
-                </div>
-                <div class="jtc-card-profile">
-                  <div class="jtc-profile-img">
-                    <img src="assets/images/s1.jpg" alt="" />
-                  </div>
-                  <div class="jtc-profile-text">
-                    <h3>Michael Chen</h3>
-                    <p>Seattle, USA</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="jtc-card-box">
-                <div class="jtc-card-box-quote">
-                  <i class="fa-solid fa-quote-right"></i>
-                </div>
-                <div class="jtc-card-text">
-                  <div class="star">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                  </div>
-                  <p>
-                    The local guides completely changed my outdoor experience.
-                  </p>
-                </div>
-                <div class="jtc-card-profile">
-                  <div class="jtc-profile-img">
-                    <img src="assets/images/s2.jpg" alt="" />
-                  </div>
-                  <div class="jtc-profile-text">
-                    <h3>Valentin Reppucci</h3>
-                    <p>Rio Negro, ARG</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="jtc-card-box">
-                <div class="jtc-card-box-quote">
-                  <i class="fa-solid fa-quote-right"></i>
-                </div>
-                <div class="jtc-card-text">
-                  <div class="star">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                  </div>
-                  <p>
-                    The wildlife guides are incredibly helpful. Spotted eagles
-                    on my last hike!
-                  </p>
-                </div>
-                <div class="jtc-card-profile">
-                  <div class="jtc-profile-img">
-                    <img src="assets/images/s3.jpg" alt="" />
-                  </div>
-                  <div class="jtc-profile-text">
-                    <h3>Manola Lopez</h3>
-                    <p>Barcelona, SPAIN</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="jtc-card-box">
-                <div class="jtc-card-box-quote">
-                  <i class="fa-solid fa-quote-right"></i>
-                </div>
-                <div class="jtc-card-text">
-                  <div class="star">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                  </div>
-                  <p>
-                    Found trails I would never have found on my own. Authentic
-                    and refreshing.
-                  </p>
-                </div>
-                <div class="jtc-card-profile">
-                  <div class="jtc-profile-img">
-                    <img src="assets/images/s1.jpg" alt="" />
-                  </div>
-                  <div class="jtc-profile-text">
-                    <h3>Michael Chen</h3>
-                    <p>Seattle, USA</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="jtc-card-box">
-                <div class="jtc-card-box-quote">
-                  <i class="fa-solid fa-quote-right"></i>
-                </div>
-                <div class="jtc-card-text">
-                  <div class="star">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                  </div>
-                  <p>
-                    The local guides completely changed my outdoor experience.
-                  </p>
-                </div>
-                <div class="jtc-card-profile">
-                  <div class="jtc-profile-img">
-                    <img src="assets/images/s2.jpg" alt="" />
-                  </div>
-                  <div class="jtc-profile-text">
-                    <h3>Valentin Reppucci</h3>
-                    <p>Rio Negro, ARG</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="jtc-card-box">
-                <div class="jtc-card-box-quote">
-                  <i class="fa-solid fa-quote-right"></i>
-                </div>
-                <div class="jtc-card-text">
-                  <div class="star">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                  </div>
-                  <p>
-                    The wildlife guides are incredibly helpful. Spotted eagles
-                    on my last hike!
-                  </p>
-                </div>
-                <div class="jtc-card-profile">
-                  <div class="jtc-profile-img">
-                    <img src="assets/images/s3.jpg" alt="" />
-                  </div>
-                  <div class="jtc-profile-text">
-                    <h3>Manola Lopez</h3>
-                    <p>Barcelona, SPAIN</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-pagination"></div>
-          <div class="swiper-button-next-jtc"></div>
-          <div class="swiper-button-prev-jtc"></div>
-        </div>
-      </div>
-    </section>
-    <section id="adventure">
-      <div class="next-adventure">
-        <h2>Your Next Adventure Awaits!</h2>
-        <p>
-          Join our community of adventurers and discover trails that will take
-          your breath away.
-        </p>
-        <a href="#"
-          >Find Your Trails
+        <a href="#">Start Your Hike 
           <i class="fa-solid fa-arrow-right"></i>
         </a>
       </div>
-    </section>
-    <section id="footer">
-      <div class="footer-box">
-        <div class="footer-logo-box">
-          <a href="#" id="logo">Hiko</a>
-          <p>Your guide to meaningful outdoor experiences and local wisdom.</p>
-        </div>
-        <div class="contact">
-          <h3>Contact</h3>
-          <ul>
-            <li><a href="#">Journey</a></li>
-            <li><a href="#">All Trails</a></li>
-            <li><a href="#">Our Guides</a></li>
-            <li><a href="#">Our Guides</a></li>
-          </ul>
-        </div>
-        <div class="get-in-touch">
-          <h3>Get in touch</h3>
-          <a href="mailto:hello@hikoadventures.com">hello@hikoadventures.com</a>
-          <div class="socials">
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    </div>
+  </section>
+  <section id="sponsors">
+      <div class="sponsor-logo">
+        <img src="assets/images/scarpa.png" alt="">
+        <img src="assets/images/columbia.png" alt="">
+        <img src="assets/images/patagonia.png" alt="">
+        <img src="assets/images/komoot.png" alt="">
+        <img src="assets/images/the-north-face.png" alt="">
+        <img src="assets/images/vaude.png" alt="">
+      </div>
+  </section>
+  <section id="what-to-do">
+    <div class="wtd-heading">
+      <p>What to do</p>
+      <h2>Discover Trails</h2>
+      <hr/>
+    </div>
+    <div class="wtd-box">
+      <div class="wtd-text">
+        <p>Find your next adventure with our curated collection of hiking trails</p>
+      </div>
+      <div class="wtd-btns">
+        <a class="active" href="#">All Trails</a>
+        <a href="#">Easy Hikes</a>
+        <a href="#">Popular Trails</a>
+        <a href="#">Hidden Gems</a>
+      </div>
+    </div>
+    <div class="wtd-card">
+      <div class="swiper mySwiperwtd">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="wtd-card-box">
+              <div class="wtd-card-img">
+                <img src="assets/images/d1.jpg" alt="">
+                <span>Easy</span>
+              </div>
+              <div class="wtd-card-text">
+                <h3>Emerald Lake Trail</h3>
+                <p><i class="fa-solid fa-location-dot"></i>Rocky Mountain National Park, CO</p>
+              </div>
+              <hr>
+              <div class="wtd-card-time-rating">
+                <div class="wtd-card-time">
+                  <p><i class="fa-solid fa-clock"></i>2-4 hours
+                  </p>
+                </div>
+                <div class="wtd-card-rating">
+                  <p><i class="fa-solid fa-star"></i>4.7
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="wtd-card-box">
+              <div class="wtd-card-img">
+                <img src="assets/images/d2.jpg" alt="">
+                <span>Popular</span>
+              </div>
+              <div class="wtd-card-text">
+                <h3>The Andes</h3>
+                <p><i class="fa-solid fa-location-dot"></i>Mendoza, Argentina</p>
+              </div>
+              <hr>
+              <div class="wtd-card-time-rating">
+                <div class="wtd-card-time">
+                  <p><i class="fa-solid fa-clock"></i>4-6 hours
+                  </p>
+                </div>
+                <div class="wtd-card-rating">
+                  <p><i class="fa-solid fa-star"></i>4.9
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="wtd-card-box">
+              <div class="wtd-card-img">
+                <img src="assets/images/d3.jpg" alt="">
+                <span>Gems</span>
+              </div>
+              <div class="wtd-card-text">
+                <h3>Hidden Forest Path</h3>
+                <p><i class="fa-solid fa-location-dot"></i>Olympic National Park, WA</p>
+              </div>
+              <hr>
+              <div class="wtd-card-time-rating">
+                <div class="wtd-card-time">
+                  <p><i class="fa-solid fa-clock"></i>1-3 hours
+                  </p>
+                </div>
+                <div class="wtd-card-rating">
+                  <p><i class="fa-solid fa-star"></i>4.8
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="wtd-card-box">
+              <div class="wtd-card-img">
+                <img src="assets/images/d1.jpg" alt="">
+                <span>Easy</span>
+              </div>
+              <div class="wtd-card-text">
+                <h3>Emerald Lake Trail</h3>
+                <p><i class="fa-solid fa-location-dot"></i>Rocky Mountain National Park, CO</p>
+              </div>
+              <hr>
+              <div class="wtd-card-time-rating">
+                <div class="wtd-card-time">
+                  <p><i class="fa-solid fa-clock"></i>2-4 hours
+                  </p>
+                </div>
+                <div class="wtd-card-rating">
+                  <p><i class="fa-solid fa-star"></i>4.7
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="wtd-card-box">
+              <div class="wtd-card-img">
+                <img src="assets/images/d2.jpg" alt="">
+                <span>Popular</span>
+              </div>
+              <div class="wtd-card-text">
+                <h3>The Andes</h3>
+                <p><i class="fa-solid fa-location-dot"></i>Mendoza, Argentina</p>
+              </div>
+              <hr>
+              <div class="wtd-card-time-rating">
+                <div class="wtd-card-time">
+                  <p><i class="fa-solid fa-clock"></i>4-6 hours
+                  </p>
+                </div>
+                <div class="wtd-card-rating">
+                  <p><i class="fa-solid fa-star"></i>4.9
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="wtd-card-box">
+              <div class="wtd-card-img">
+                <img src="assets/images/d3.jpg" alt="">
+                <span>Gems</span>
+              </div>
+              <div class="wtd-card-text">
+                <h3>Hidden Forest Path</h3>
+                <p><i class="fa-solid fa-location-dot"></i>Olympic National Park, WA</p>
+              </div>
+              <hr>
+              <div class="wtd-card-time-rating">
+                <div class="wtd-card-time">
+                  <p><i class="fa-solid fa-clock"></i>1-3 hours
+                  </p>
+                </div>
+                <div class="wtd-card-rating">
+                  <p><i class="fa-solid fa-star"></i>4.8
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev-wtd"></div>
+        <div class="swiper-button-next-wtd"></div>
       </div>
-      <hr />
-      <div class="copyright">
-        <p>&copy; 2025 Hiko Adventures. All rights reserved.</p>
-        <div class="copyright-pages">
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Service</a>
+    </div>
+  </section>
+  <section id="share-with-us">
+    <div class="swu-heading">
+      <p>share with us</p>
+      <h2>Let Your Hike Inspire Someone Else</h2>
+      <hr/>
+    </div>
+    <div class="swu-box">
+      <div class="swu-text">
+        <p>Big climbs or small walks, they all  count here</p>
+      </div>
+      <div class="swu-socials">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+    <div class="swu-img-card">
+      <img src="assets/images/s1.jpg" alt="">
+      <img src="assets/images/s2.jpg" alt="">
+      <img src="assets/images/s3.jpg" alt="">
+      <img src="assets/images/s4.jpg" alt="">
+    </div>
+  </section>
+  <section id="achievement">
+    <div class="achievement-box">
+      <div class="achievement-text">
+        <h2>2,500+</h2>
+        <strong>Trails Mapped</strong>
+        <p>Curated hiking paths</p>
+      </div>
+      <div class="achievement-text">
+        <h2>45k+</h2>
+        <strong>Miles Covered</strong>
+        <p>Total distance tracked</p>
+      </div>
+      <div class="achievement-text">
+        <h2>150k+</h2>
+        <strong>Active Hikers</strong>
+        <p>Monthly community members</p>
+      </div>
+    </div>
+  </section>
+  <section id="join-the-community">
+    <div class="jtc-heading">
+      <p>Join the community</p>
+      <h2>Trusted by Hikers Everywhere</h2>
+      <hr/>
+    </div>
+    <div class="jtc-text">
+      <p>Join our community of adventurers and discover what makes our trails special
+      </p>
+    </div>
+    <div class="jtc-card">
+      <div class="swiper mySwiperjtc">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="jtc-card-box">
+              <div class="jtc-card-box-quote">
+                <i class="fa-solid fa-quote-right"></i>
+              </div>
+              <div class="jtc-card-text">
+                <div class="star"> 
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p>Found trails I would never have found on my own. Authentic and refreshing.
+                </p>
+              </div>
+              <div class="jtc-card-profile">
+                <div class="jtc-profile-img">
+                  <img src="assets/images/s1.jpg" alt="">
+                </div>
+                <div class="jtc-profile-text">
+                  <h3>Michael Chen</h3>
+                  <p>Seattle, USA</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="jtc-card-box">
+              <div class="jtc-card-box-quote">
+                <i class="fa-solid fa-quote-right"></i>
+              </div>
+              <div class="jtc-card-text">
+                <div class="star"> 
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p>The local guides completely changed my outdoor experience.
+                </p>
+              </div>
+              <div class="jtc-card-profile">
+                <div class="jtc-profile-img">
+                  <img src="assets/images/s2.jpg" alt="">
+                </div>
+                <div class="jtc-profile-text">
+                  <h3>Valentin Reppucci</h3>
+                  <p>Rio Negro, ARG</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="jtc-card-box">
+              <div class="jtc-card-box-quote">
+                <i class="fa-solid fa-quote-right"></i>
+              </div>
+              <div class="jtc-card-text">
+                <div class="star"> 
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p>The wildlife guides are incredibly helpful. Spotted eagles on my last hike!
+                </p>
+              </div>
+              <div class="jtc-card-profile">
+                <div class="jtc-profile-img">
+                  <img src="assets/images/s3.jpg" alt="">
+                </div>
+                <div class="jtc-profile-text">
+                  <h3>Manola Lopez</h3>
+                  <p>Barcelona, SPAIN</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="jtc-card-box">
+              <div class="jtc-card-box-quote">
+                <i class="fa-solid fa-quote-right"></i>
+              </div>
+              <div class="jtc-card-text">
+                <div class="star"> 
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p>Found trails I would never have found on my own. Authentic and refreshing.
+                </p>
+              </div>
+              <div class="jtc-card-profile">
+                <div class="jtc-profile-img">
+                  <img src="assets/images/s1.jpg" alt="">
+                </div>
+                <div class="jtc-profile-text">
+                  <h3>Michael Chen</h3>
+                  <p>Seattle, USA</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="jtc-card-box">
+              <div class="jtc-card-box-quote">
+                <i class="fa-solid fa-quote-right"></i>
+              </div>
+              <div class="jtc-card-text">
+                <div class="star"> 
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p>The local guides completely changed my outdoor experience.
+                </p>
+              </div>
+              <div class="jtc-card-profile">
+                <div class="jtc-profile-img">
+                  <img src="assets/images/s2.jpg" alt="">
+                </div>
+                <div class="jtc-profile-text">
+                  <h3>Valentin Reppucci</h3>
+                  <p>Rio Negro, ARG</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="jtc-card-box">
+              <div class="jtc-card-box-quote">
+                <i class="fa-solid fa-quote-right"></i>
+              </div>
+              <div class="jtc-card-text">
+                <div class="star"> 
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p>The wildlife guides are incredibly helpful. Spotted eagles on my last hike!
+                </p>
+              </div>
+              <div class="jtc-card-profile">
+                <div class="jtc-profile-img">
+                  <img src="assets/images/s3.jpg" alt="">
+                </div>
+                <div class="jtc-profile-text">
+                  <h3>Manola Lopez</h3>
+                  <p>Barcelona, SPAIN</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next-jtc"></div>
+        <div class="swiper-button-prev-jtc"></div>
+      </div>
+    </div>
+  </section>
+  <section id="adventure">
+      <div class="next-adventure">
+        <h2>Your Next Adventure Awaits!</h2>
+        <p>Join our community of adventurers and discover trails that will take your breath away.
+        </p>
+        <a href="#">Find Your Trails 
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+  </section>
+  <section id="footer">
+    <div class="footer-box">
+      <div class="footer-logo-box">
+        <a href="#" id="logo">Hiko</a>
+        <p>Your guide to meaningful outdoor experiences and local wisdom.</p>
+      </div>
+      <div class="contact">
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="#">Journey</a></li>
+          <li><a href="#">All Trails</a></li>
+          <li><a href="#">Our Guides</a></li>
+          <li><a href="#">Our Guides</a></li>
+        </ul>
+      </div>
+      <div class="get-in-touch">
+        <h3>Get in touch</h3>
+        <p><a href="mailto:hello@hikoadventures.com">hello@hikoadventures.com</a></p>
+        <div class="socials">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
         </div>
       </div>
-      <div class="footer-credits">
-        <p>Web Design by <a href="https://x.com/sheriffpascal">Sheriff</a></p>
-        <p>UI/UX by <a href="https://x.com/santu_design">Santu</a></p>
+    </div>
+    <hr>
+    <div class="copyright">
+      <p>&copy; 2025 Hiko Adventures. All rights reserved.
+      </p>
+      <div class="copyright-pages">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
       </div>
-    </section>
-  </body>
+    </div>
+    <div class="footer-credits">
+      <p>Web Design by <a href="https://x.com/sheriffpascal">Sheriff</a></p>
+      <p>Inspired by <a href="https://x.com/santu_design">Santu</a></p>
+    </div>
+  </section>
+</body>
 </html>
