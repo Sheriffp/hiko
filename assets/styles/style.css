@@ -315,6 +315,12 @@ a {
   color: rgb(52,52,52);
   text-align: center;
   margin: 10px 0 40px;
+} 
+
+.wtd-btns {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
 }
 
 .wtd-btns a {
