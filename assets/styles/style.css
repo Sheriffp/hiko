@@ -24,7 +24,6 @@ a {
   background: url('/assets/images/main-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center top;
   margin: 0 auto;
   padding: 20px 0;
 }
@@ -317,12 +316,12 @@ a {
 }
 
 .wtd-btns a {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 500;
   color: rgb(27,66,66);
   border: 1px solid rgb(27,66,66);
   border-radius: 5px;
-  padding: 4px 4px;
+  padding: 2px 4px;
   margin-left: 4px;
   box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
   margin-bottom: 20px;
@@ -693,7 +692,6 @@ a {
   background: rgb(27,66,66);;
   background: url('/assets/images/adventure.jpg');
   background-size: cover;
-  background-position: center right;
   background-repeat: no-repeat;
   margin: 0 auto;
   padding: 20px 0;
