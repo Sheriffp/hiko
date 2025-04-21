@@ -24,6 +24,7 @@ a {
   background: url('../images/main-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center right;
   margin: 0 auto;
   padding: 20px 0;
 }
@@ -648,7 +649,7 @@ a {
 }
 
 .jtc-card-text p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-style: italic;
   color: rgb(92,92,92);
   text-align: center;
@@ -693,6 +694,7 @@ a {
   background: url('../images/adventure.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center right;
   margin: 0 auto;
   padding: 20px 0;
 }
@@ -991,7 +993,7 @@ a {
   
   #sponsors {
     background: url('../images/pattern.jpg');
-    background-size: cover;
+    background-size: contain;
   }
   
    .sponsor-logo img {
