@@ -702,7 +702,7 @@ a {
   background: url('../images/adventure.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: center top;
   margin: 0 auto;
   padding: 20px 0;
 }
@@ -1161,6 +1161,10 @@ a {
 
   .jtc-profile-text p {
     font-size: 1.2rem;
+  }
+
+  #adventure {
+    background-position: none;
   }
   
   .next-adventure {
